@@ -15,4 +15,4 @@ COPY main.py .
 RUN mkdir -p temp_files
 
 # Запускаем бота
-CMD ["python", "bot.py"]
+CMD ["python", "main.py"]
