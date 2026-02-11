@@ -9,7 +9,7 @@ COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Копируем код бота
-COPY bot.py .
+COPY main.py .
 
 # Создаем директорию для временных файлов
 RUN mkdir -p temp_files
